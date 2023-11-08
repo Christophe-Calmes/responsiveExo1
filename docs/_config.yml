@@ -1,0 +1,18 @@
+remote_theme: WildCodeSchool/workshops-jekyll-theme
+
+titles_from_headings:
+  enabled: false
+
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default" # possible values: default or tic-tac
+
+style: dev # possible values: dev, data, ciber, design or wild.
+title: 'HTML/CSS Responsive'
+description: 'Integration - part II'
+# type: ''
+# main_image: '' # http or relative path to image
+show_clone: false
+show_toc: true
